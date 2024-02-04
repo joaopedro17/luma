@@ -10,7 +10,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Para conseguir rodar o projeto é necessário:
 
 ```
-Versão estavel do Node
+Versão estável do Node
 ```
 
 ```
