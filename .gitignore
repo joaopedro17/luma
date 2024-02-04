@@ -1,0 +1,17 @@
+# File types
+.html
+.xml
+.DS_Store
+.jpg
+.png
+.vscode
+
+# Folders
+log/
+logs/
+results/
+.vs/
+.idea/
+target/
+node_modules/
+cypress/screenshots/

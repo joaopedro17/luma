@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "open": "npx cypress open",
+    "tests": "npx cypress run --spec 'cypress/e2e/tests/*.cy.js' --browser chrome",
+    "one:test": "npx cypress run --spec $spec_file",
+    "merge:reports": "jrm automation-report.xml \"results/*.xml\"",
+    "on:cloud": "npx cypress run --record --key $cloud_key"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "cypress": "^13.6.4",
+    "cypress-file-upload": "^5.0.8",
+    "junit-report-merger": "^6.0.2",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
